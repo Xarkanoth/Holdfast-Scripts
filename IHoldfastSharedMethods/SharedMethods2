@@ -1,4 +1,4 @@
-void OnPlayerPacket(int playerId, byte? instance, Vector3? ownerPosition, double? packetTimestamp, Vector2? ownerInputAxis, float? ownerRotationY, float? ownerPitch, float? ownerYaw, PlayerActions[] actionCollection, Vector3? cameraPosition, Vector3? cameraForward, ushort? shipID, bool swimming);
-void OnVehiclePacket(int vehicleId, Vector2 inputAxis, bool shift, bool strafe, PlayerVehicleActions[] actionCollection);
-void OnOfficerOrderStart(int officerPlayerId, HighCommandOrderType officerOrderType, Vector3 orderPosition, float orderRotationY, int voicePhraseRandomIndex);
-void OnOfficerOrderStop(int officerPlayerId, HighCommandOrderType officerOrderType)
+void OnPlayerPacket(int playerId, byte? instance, Vector3? ownerPosition, double? packetTimestamp, Vector2? ownerInputAxis, float? ownerRotationY, float? ownerPitch, float? ownerYaw, PlayerActions[] actionCollection, Vector3? cameraPosition, Vector3? cameraForward, ushort? shipID, bool swimming) { }
+void OnVehiclePacket(int vehicleId, Vector2 inputAxis, bool shift, bool strafe, PlayerVehicleActions[] actionCollection) { }
+void OnOfficerOrderStart(int officerPlayerId, HighCommandOrderType officerOrderType, Vector3 orderPosition, float orderRotationY, int voicePhraseRandomIndex) { }
+void OnOfficerOrderStop(int officerPlayerId, HighCommandOrderType officerOrderType) { }
